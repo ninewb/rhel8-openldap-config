@@ -1,0 +1,9 @@
+dn: cn=sasusers,ou=groups,dc=domain,dc=com
+objectClass: groupOfNames
+objectClass: top
+objectClass: extensibleObject
+cn: sasusers
+gidNumber: 10000
+description: All Test users
+member: uid=testuser,ou=users,dc=domain,dc=com
+

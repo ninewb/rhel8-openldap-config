@@ -1,0 +1,15 @@
+dn: uid=testuser,ou=users,dc=domain,dc=com
+cn: Test User
+givenName: Test
+sn: User
+uid: testuser
+uidNumber: 6000
+gidNumber: 10000
+homeDirectory: /home/testuser
+mail: testuser@domain.com
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+loginShell: /bin/bash
+userPassword: {SHA}/MU3iBzR1bzdq/SPqICcdHEXbeA=

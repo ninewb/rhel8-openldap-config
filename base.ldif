@@ -1,0 +1,14 @@
+dn: dc=domain,dc=com
+objectClass: dcObject
+objectClass: organization
+o: SAS Institute
+
+dn: ou=users,dc=domain,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: ou=groups,dc=domain,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: groups

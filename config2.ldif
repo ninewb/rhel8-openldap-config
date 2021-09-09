@@ -1,0 +1,10 @@
+dn: olcDatabase={2}mdb,cn=config
+changeType: modify
+add: olcRootPW
+olcRootPW: secret
+
+dn: olcDatabase={1}monitor,cn=config
+changetype: modify
+add: olcAccess
+olcAccess: {0}to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external, cn=auth" read by dn.base="cn=admin,dc=domain,dc=com" read by * none
+
